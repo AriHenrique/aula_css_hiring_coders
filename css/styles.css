@@ -2,8 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: var(--texto2--greem);
 }
 
+body{
+    background: linear-gradient(to top, var(--background1--black), var(--background2--deep));
+}
+
+:root{
+    --texto1--greem: #38ADB3;
+    --texto2--greem: #41E495;
+    --background1--black: #000;
+    --background2--deep: #434343;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
 
 #arrow{
     width: 10px;
