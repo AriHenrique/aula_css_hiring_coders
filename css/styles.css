@@ -3,10 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     color: var(--texto2--greem);
-}
-
-body{
-    background: linear-gradient(to top, var(--background1--black), var(--background2--deep));
+    font-family: 'Roboto', sans-serif;
 }
 
 :root{
@@ -14,6 +11,19 @@ body{
     --texto2--greem: #41E495;
     --background1--black: #000;
     --background2--deep: #434343;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to top, var(--background1--black), var(--background2--deep), var(--background1--black));
+}
+
+.container{
+    text-align: center;
+}
+
+#logo{
+    width: 5%;
 }
 
 ul {
@@ -25,6 +35,26 @@ a{
 }
 
 #arrow{
+    margin: auto;
     width: 10px;
     height: 10px;
 }
+
+#about p{
+    max-width: 600px;
+    margin: auto;
+}
+
+.form{
+    margin: auto;
+    width: 40%;
+}
+
+.form input{
+    width: 50%;
+}
+
+.form button{
+    width: 15%;
+}
+
