@@ -37,6 +37,15 @@ video{
     }
 }
 
+@media(max-width: 767px){
+    video{
+        display: none;
+    }
+    body{
+        height: 100vh;
+        background: url(https://media2.giphy.com/media/4H5jdBI1AEvS2xlra6/giphy.gif?cid=ecf05e47cz5dgg7rehhzziplp0p1ncl3u3w6eqaqg17uwyt2&rid=giphy.gif&ct=g)
+    }
+}
 
 #logo{
     width: 5%;
