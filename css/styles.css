@@ -39,8 +39,7 @@ video{
     text-align: center;
 }
 
-.card-text {
-
+.card-text{
     grid-area: text;
     margin: 25px;
 }
@@ -54,6 +53,18 @@ video{
     margin-top:0px;
     font-size:50px;
 }
+
+.card:hover {
+    transform: scale(1.0);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+.card {
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+  }
+
+
 
 @media(min-aspect-ratio: 16/9){
     video{
