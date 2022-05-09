@@ -102,6 +102,7 @@ video{
     }
 
     #logo{
+        margin-left: 20px;
         min-width: 50px;
         max-width: 40%;
     }
