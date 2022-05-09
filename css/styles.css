@@ -58,12 +58,15 @@ video{
     transform: scale(1.0);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
-.card {
+.card{
     transition: 0.5s ease;
     cursor: pointer;
     margin:30px;
-  }
+}
 
+.contatos{
+    padding: 10px;
+}
 
 
 @media(min-aspect-ratio: 16/9){
@@ -98,6 +101,10 @@ video{
         background: rgba(0, 0, 0, 0.731);
     }
 
+    #logo{
+        min-width: 50px;
+        max-width: 40%;
+    }
 }
 
 header{
